@@ -12,7 +12,10 @@
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
+    "electron": "^35.0.0",
+    "escpos": "^3.0.0-alpha.6",
     "express": "^4.21.2",
-    "socket.io": "^4.8.1"
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.1"
   }
 }

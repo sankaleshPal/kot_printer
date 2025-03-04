@@ -30,7 +30,7 @@ function createWindow() {
   // Printer discovery
   ipcMain.handle('discover-printers', async () => {
     const printers = [];
-    const network = '192.168.1'; // Modify based on your network
+    const network = '192.168.1'; 
     
     for (let i = 1; i <= 255; i++) {
       const ip = `${network}.${i}`;
